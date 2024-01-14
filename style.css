@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#display{
+    width:500px;
+    height:100px;
+    position: absolute;
+    bottom:10%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    color: black;
+    padding:30px 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+    height:100vh;
+}
+.card-body{
+    background: -webkit-repeating-linear-gradient(rgb(249, 245, 239),white,rgb(230, 237, 230));
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width:50%;
+}
+
+.card-body h1{
+    margin-bottom :30px;
+    font-size: 70px;
+}
+
+.card-button button{
+    color:black;
+    padding: 20px 40px;
+    border :0;
+    font-size: 18px;
+    font-weight: bold;
+    margin : 10px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+button#decre{
+    background-color: rgb(226, 151, 46);
+}
+
+button#decre:hover{
+    background-color: bisque;
+    color:rgb(196, 28, 28);
+}
+
+button#reset{
+    background-color: rgb(34, 234, 167);
+}
+button#reset:hover{
+    background-color: rgb(240, 235, 230);
+    color:black;
+}
+
+button#incre{
+    background-color: rgb(77, 195, 22);
+}
+button#incre:hover{
+    background-color: rgb(238, 8, 46);
+    color:black;
+}
